@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* CSS Document */
+
+/***************
+ *	 NOTICIAS  *	
+ ***************/
+
+.table1{	
+	width:650px;
+	margin:15px auto 0px auto;
+	padding:20px;
+	border:1px solid #999;
+	background-color:#EEE;
+	font-family:Verdana, Geneva, sans-serif;	
+}
+
+.table1:hover{	
+	width:650px;
+	margin:15px auto 0px auto;
+	padding:20px;
+	border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;	
+	font-family:Verdana, Geneva, sans-serif;	
+	background-color:#FF9;
+	border:1px solid #F60;
+	cursor:pointer;
+}
+
+.img{
+	vertical-align:top;
+}
+
+.image{
+	width:20px;
+	height:20px;
+	border:0px;
+}
+
+.image1{
+	vertical-align:top;
+	width:160px;
+	height:150px;
+	margin:0px 20px 0px 10px;
+	float:left;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;		
+}
+
+.image2{
+	width:500px;
+	height:300px;
+	text-align:center;
+	padding:15px 0px 10px 0px;		
+	margin:0px 70px 0px 70px;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;	
+}
+
+.imageAdmin{
+	float:left;
+}
+
+.titleNew{
+	width:530px;
+	padding-top:10px;
+	vertical-align:text-top;
+	font-size:18px;
+	color:#666;
+	font-weight:bold;
+}
+
+.titleNew:hover{
+	width:530px;
+	padding-top:10px;	
+	vertical-align:text-top;
+	font-size:18px;
+	color:#F60;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+.dateNew{
+	width:530px;	
+	padding-top:10px;	
+	vertical-align:text-top;
+	font-size:12px;
+	color:#333;
+}
+
+.typeNew{
+	vertical-align:text-top;
+	font-size:12px;
+	color:#333333;
+	line-height:20px;
+}
+
+.sportNew{
+	width:530px;	
+	vertical-align:text-top;
+	font-size:12px;
+	color:#333333;
+}
+
+.contentNew{
+	width:530px;	
+	padding-top:10px;
+	vertical-align:text-top;
+	font-size:14px;
+	color:#333;
+	margin-bottom:20px;
+}
+
+.lastNewFrame{
+	width:310px;
+	text-align:center;	
+	border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;	
+}
+
+.imageLastNew{
+	width:200px;
+	height:150px;
+	padding:15px 0px 10px 0px;
+}
+
+.table2{
+	font-family:Tahoma, Geneva, sans-serif;
+	width:700px;
+	margin:20px auto 15px auto;
+	padding:20px;
+	color:#666666;
+	border:1px solid #F93;border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;	
+}
+
+.titleNew2{
+	font-size:20px;
+	color:#666;
+	font-weight:bold;
+	line-height:30px;
+}
+
+.titleNew2:hover{
+	font-size:20px;
+	color:#F60;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+.dateNew2{	
+	vertical-align:text-top;
+	font-size:12px;
+	color:#333;
+}
+
+.sportNew2{	
+	vertical-align:text-top;
+	font-size:12px;
+	color:#333333;
+	line-height:20px;
+}
+
+.contentNew2{
+	vertical-align:text-top;
+	font-size:16px;
+	padding-bottom:10px;
+}
+
+.iconNew{
+	width:auto;
+	height:auto;border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;	
+	padding:0px 10px 10px 0px;
+	background-color:transparent;
+}
+
+.tableLastNew{
+	width:300px;
+	text-align:left;	
+	font-family:"Arial";
+	color:#333333;
+	font-weight:400;	
+}
+
+.buttonLogin{
+	width:120px;
+	text-align:center;
+	height:auto;
+	margin-top:5px;
+	background-color:#CCC;
+	line-height:40px;
+	cursor:pointer;
+	font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+	font-weight:bold;border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;	
+}
+
+.buttonLogin:hover{
+	background-color:#F90;
+	border:1px solid #666;
+	border-style:solid;
+	color:#000;
+	border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;	
+}

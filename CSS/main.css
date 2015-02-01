@@ -1,0 +1,796 @@
+@charset "utf-8";
+
+a{
+	text-decoration:none;
+	color:#000000;
+}
+
+a:hover{
+	color:#FF6600;
+}
+
+h2 {
+	color:#FF6600;	
+	padding-top:35px;
+}
+
+h3 {
+	font-size:14px;
+	color:#FF6600;	
+	padding-top:35px;
+	padding-bottom:35px;
+}
+
+h4{
+	font-size:14px;
+	color:#FF6600;
+}
+
+h5{
+	color:#00FF00;
+	padding-top:5px;
+	padding-right:10px;
+	text-align:right;
+}
+
+h6{
+	margin-bottom:15px;
+	margin-top:10px;
+	text-align:center;
+	font-size:14px;
+	color:#F30;
+	font-family:"Century Gothic";
+}
+
+body {
+	background:url(../Imagenes/fondo6.jpg) no-repeat fixed;
+	background-color:#FF6600;
+}
+
+#capaContenido{
+	width:1038px;
+	margin:30px auto;
+	display:block; 
+}
+
+#capaIzquierda{
+	width:180px;
+	float:left;	
+}
+
+#capaLogo{
+	background:url(../Imagenes/logoDKT.png) no-repeat left;
+	text-align:center;
+	width:150px;
+	height:140px;
+	margin-left:20px;
+}
+
+/***************
+ *	  MENU	   *	
+ ***************/
+
+#capaMenu a:hover{
+	background:url(../Imagenes/textura_boton_menu_encima.png) no-repeat;
+	background-position: left;
+	font-family:"Franklin Gothic Medium";
+	font-size:18px;	
+}
+
+#listaMenu{
+	margin-left:-40px;
+	list-style-type: none;
+	font-family:"Franklin Gothic Medium";
+	font-size:18px;		
+}
+
+.botonMenu a{
+	display: block;
+	color:#FF6600;
+	height: 38px;
+	background:url(../Imagenes/textura_boton_menu_normal2.png) no-repeat;
+	background-position: left;
+	padding-left:50px;	
+	padding-top:15px;
+	margin-top:-15px;
+	text-decoration:none;	
+}
+
+.botonMenu a:hover{
+	background:url(../Imagenes/textura_boton_menu_encima.png) no-repeat;
+	background-position: left;
+	color:#FFFFFF;
+}
+
+#botonMenuSeleccionado a{
+	display: block;
+	color:#F60;
+	height:38px;
+	background:url(../Imagenes/textura_boton_menu_elegido2.png) no-repeat;
+	background-position: left;
+	padding-left:50px;	
+	padding-top:15px;
+	margin-top:-15px;
+	text-decoration:none;	
+}
+
+#botonMenuSeleccionado a:hover{
+	background:url(../Imagenes/textura_boton_menu_elegido2.png) no-repeat;
+	background-position: left;	
+}
+
+/***************
+ *	  MENU	   *	
+ ***************/
+
+#capaCentro{
+	float: left;
+	width: 768px;
+}
+
+#capaTitulo{
+	background: url(../Imagenes/fondo_titulo2_grande.png) no-repeat center top;
+	width:auto;	
+	height:80px;
+	text-align:center;
+}
+
+#capaTexto{
+	text-align:left;
+	color:#000000;
+	padding: 10px 20px 20px 20px;
+	background:url(../Imagenes/fondo_texto_grande.gif) repeat-y center top;
+	width:728px;
+	float:left;
+}
+
+#capaTexto p.estudios{
+	padding-left:5px;
+	color:#000;
+	text-decoration: none;
+	font-family:"Century Gothic";
+	font-size:13px;
+}
+
+#capaTexto p a{
+	color:#000;
+	text-decoration: none;	
+}
+
+#capaTexto p a:hover{
+	color:#F60;
+}
+
+#capaTexto p.tituloTexto{
+	color:#666;
+	font-weight:bold;
+	font-size:16px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+#capaTexto p.commentTitle{
+	margin-left:20px;
+	color:#333;
+	font-size:16px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#capaTexto p.infoComment{
+	margin-left:20px;
+	margin-top:-10px;
+	color:#999;
+	font-family:"Arial";
+}
+
+#capaTexto p.comment{
+	text-align:left;
+	margin-left:20px;
+	color:#333;
+	font-family:"Arial";
+}
+
+#capaTexto p.history {
+	padding:0px 15px 15px 15px;
+	line-height:18px;
+	color:#666;
+	text-align:left;
+	font-family:"Arial";	
+	font-size:15px;
+	text-align:justify;
+}
+
+#capaPieTexto{
+	background:url(../Imagenes/fondo_pie_texto_grande.png) no-repeat center top;
+	text-align:center;
+	width:768px;
+	height:38px;
+	float:left;
+	padding-top:5px;
+	margin-bottom:40px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	color:#000000;
+	font-weight:200;
+}
+
+#capaDatosLocalizacion{
+	padding-top:20px;
+	padding-left:20px;
+	margin-bottom:10px;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;		
+}
+
+#capaDatosDeportivos{
+	padding-top:20px;
+	padding-left:20px;	
+	margin-bottom:10px;	
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;	
+}
+
+#capaDatosPersonales{
+	padding-left:20px;	
+	margin-bottom:10px;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;	
+}
+
+.botonInfo{
+	background: url(../Imagenes/Iconos/flecha.png) no-repeat right;
+	padding:5px 15px 5px 5px;
+	height:40px;
+	width:130px;
+	background-color:#000000;
+	border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;	text-align:left;
+	color:#FFFFFF;
+	margin-bottom:10px;
+}
+
+.botonInfo:hover{
+	background: url(../Imagenes/Iconos/flecha.png) no-repeat right;
+	padding:5px 15px 5px 5px;
+	height:40px;
+	width:130px;
+	background-color:#FF6600;
+	border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;	text-align:left;
+	color:#FFFFFF;
+	margin-bottom:10px;
+	cursor:pointer;
+}
+
+.sendButton{
+	width:80px;
+	height:30px;
+	margin:auto;
+	border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;	background-color:#FF6600;
+	cursor:pointer;
+}
+
+.resetButton{
+	width:80px;
+	height:30px;	
+	margin:auto;
+	border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;	background-color:#FF6600;
+	cursor:pointer;	
+}
+
+.separador{
+	width:90%;
+	margin:auto;
+	border-top:#a2a2a2 1px solid;
+	border-bottom:#FFF 1px solid;
+	margin-top:10px;
+	margin-bottom:10px;
+	clear:both;
+}
+
+.photoError{
+	text-align:center;
+	padding-top:10px;
+}
+
+.photo{
+	margin:10px;
+	width:160px;
+	height:150px;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;		
+}
+
+#usuarioRegistrado{
+	color:#33FF00;
+	font-style:italic;
+}
+
+/***************
+ *	  EQUIPO   *	
+ ***************/
+
+.atr0{
+	width:150px;
+	line-height:16px;
+	vertical-align:text-top;
+	font-family:"Adobe Garamond Pro Bold";
+	font-size:16px;
+	font-weight:bold;
+	color:#999;
+	text-align:left;
+	padding-left:10px;
+}
+
+.atr1{
+	width:250px;
+	line-height:16px;
+	vertical-align:text-top;
+	font-family:"Adobe Garamond Pro Bold";
+	font-size:16px;
+	font-weight:bold;
+	color:#333;
+	text-align:left;
+	padding-left:10px;
+}
+
+#infoTeam{
+	width:725px;
+	float:left;
+	margin:20px auto;
+	border:1px solid #F90;	
+	margin-bottom:20px;
+	padding-bottom:20px;
+	border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;	
+}
+
+.headerClassification{
+	padding-left:10px;
+	margin-left:45px;	
+	border-bottom:1px solid #999;
+	border-top:1px solid #999;
+	background-color:#CCC;
+}
+
+.tableClassification{
+	font-family:"Arial";
+	padding-left:10px;
+	margin-left:45px;	
+	border-bottom:1px solid #999;
+}
+
+.plantilla{
+	width:700px;
+	float:left;
+	margin:0px 10px 10px 10px;
+	padding:0px 10px 10px 10px;
+	display:block;
+}
+
+.jugador{
+	float:left;
+	width:145px;
+	height:85px;
+	margin:5px;
+	padding:10px 5px 5px 5px;
+	border:1px solid #999;
+	background-color:#EEE;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+}
+
+.jugador:hover{
+	float:left;
+	width:145px;
+	height:85px;
+	margin:5px;
+	padding:10px 5px 5px 5px;
+	background-color:#999;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	cursor:pointer;	
+}
+
+.jugadorAjax{
+	width:630px;
+	height:235px;
+	margin:700px 0px 0px 10px;
+	padding:10px;
+	border:1px solid #F60;
+	border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+	background-color:#e9e9d9;
+}
+
+.imgAjax{
+	vertical-align:top;
+	width:200px;
+	height:220px;
+	margin:0px 20px 0px 10px;
+	float:left;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;	
+}
+
+.atrAjax1{
+	width:150px;
+	float:left;
+	line-height:22px;
+	text-align:left;
+	color:#666;
+	font-weight:bold;	
+	font-family:"Arial";
+	font-size:14px;	
+}
+
+.atrAjax2{
+	width:230px;
+	float:left;	
+	line-height:22px;	
+	text-align:left;
+	color:#F60;
+	font-weight:bold;
+	font-family:"Arial";
+	font-size:14px;	
+}
+
+.statisticAjax{
+	width:175px;
+	height:auto;
+	padding:15px;
+	margin-top:180px;
+	float:left;
+	border:1px solid #F60;
+	margin:20px 20px 0px 0px;
+	border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;		
+}
+
+.userRanking{
+	color:#000;
+	font-size:14px;
+	font-family:"Century Gothic";
+	border-bottom:1px solid #000000;
+	padding:5px 0px 5px 0px;
+}
+
+.dataRanking{
+	margin:-23px 0px 0px 150px;
+	font-size:14px;
+	font-family:"Century Gothic";	
+	color:#FF6600;
+}
+
+.assists{
+}
+
+.closeUser{
+	padding-top:-100px;
+	padding-left:615px;
+	cursor:pointer;
+}
+
+.matchAjax{
+	width:250px;
+	height:220px;
+	padding:15px;
+	margin-top:180px;
+	float:left;
+	border:1px solid #F60;
+	margin:20px 20px 0px 0px;
+	border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;		
+}
+
+.teamAjax{
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	font-family:"Arial Narrow";
+	color:#999999;
+}
+
+.versusAjax{
+	text-align:center;
+	margin:3px 0px 3px 0px;
+	font-size:26px;
+	font-family:"Arial Narrow";
+	color:#F60;
+}
+
+.goalAjax{
+	text-align:center;	
+	font-size:30px;
+	font-family:"Arial Narrow";
+	color:#000;
+	margin:-30px 0px 0px 180px;
+}
+
+.dateAjax{
+	margin-top:20px;
+	font-size:12px;
+	font-family:"Century Gothic";
+}
+
+.timeAjax{
+	font-size:12px;	
+	font-weight:bold;
+	font-family:"Century Gothic";	
+}
+
+.placeAjax{
+	font-size:12px;	
+	font-family:"Century Gothic";	
+}
+
+.imgMatch{
+	margin:0px 20px 5px 0px;
+	vertical-align:middle;
+}
+
+.nombreJugador{
+	padding:0px 5px 10px 5px;
+	font-size:16px;
+}
+
+.atrPlayer{
+	padding-left:55px;
+	font-size:12px;
+}
+
+.imgEquipo{
+	float:none;
+	width:400px;
+	height:270px;
+	margin:40px 0px 20px 140px;
+	border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;	
+}
+
+.tableResults{
+	font-family:"Arial";	
+	margin: 20px 0px 20px 82px;
+	padding:5px 10px 5px 15px;
+}
+
+.jornada{
+	margin-bottom:-15px;
+	font-family:"Arial";	
+	color:#F30;
+	font-weight:bold;
+	text-align:center;
+}
+
+.firstPosition{
+	width:24px;
+	color:#000;
+	text-align:left;
+}
+
+.fieldDate{
+	width:80px;
+	font-size:12px;
+	text-align:right;
+	color:#F60;
+}
+
+.field11{
+	text-align:left;
+	color:#F60;
+}
+
+.field12{	
+	width:40px;
+	text-align:left;
+	color:#F60;
+}
+
+.field1{
+	width:230px;
+	text-align:left;
+	color:#666;
+}
+
+.goals{
+	border:1px solid #000;
+	text-align:center;
+	width:25px;
+	height:20px;
+	color:#666;
+}
+
+.field2{
+	width:40px;
+	text-align:left;
+	color:#666;
+}
+
+.field3{
+	width:150px;
+	text-align:left;
+	color:#666;
+}
+
+.field4{
+	margin:0px 5px 0px 5px;
+	text-align:left;
+	font-size:12px;	
+	color:#666;
+}
+.temporada{
+	line-height:20px;
+	margin:5px;
+	padding:10px;
+	text-align:center;
+	font-family:"Arial";
+	color:#000;
+}
+
+.temporada a{
+	color:#FF6600;
+}
+
+.temporada a:hover{
+	color:#F00;
+	font-weight:400;
+}
+
+.blog{
+	text-align:right;
+	font-size:13px;
+	font-family:"Arial";
+}
+
+.blog a{
+	color:#000;
+	font-weight:bold;	
+}
+
+.blog a:hover{
+	color:#F60;
+	font-weight:bold;	
+}
+
+/***************
+ *	  EQUIPO   *	
+ ***************/
+
+#principal{
+	width:315px;
+	height:1800px;
+	vertical-align:top;
+	float:left;
+	padding:10px;
+	margin:10px;
+	border:1px solid #F60;
+	border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;		
+}
+
+.separador{
+	border-top:1px dotted #999999;
+}
+
+.prizes{
+	float:left;
+	display:block;
+}
+
+.tablePrize{
+	width:160px;
+	float:left;
+	border-bottom:1px dotted #000;
+	font-family:"Arial";
+	padding:10px;
+}
+
+.titlePrize{
+	text-align:center;
+	height:20px;	
+	padding-top:10px;
+	text-align:center;
+	color:#666;
+	vertical-align:text-top;
+	font-family:"Franklin Gothic Medium";
+	font-weight:bold;
+}
+
+.imgPrize{
+	width:160px;
+	height:160px;
+	text-align:center;	
+}
+
+.namePrize{
+	height:auto;	
+	vertical-align:text-top;
+	color:#666;
+	text-align:center;
+	padding-bottom:10px;
+	font-family:"Franklin Gothic Medium";	
+}
+
+.team{
+	font-size:14px;
+}
+
+#back{
+	text-align:center;
+	font-size:20px;
+	font-family:"Franklin Gothic Medium";
+	margin-bottom:20px;	
+}
+
+#campeonato{
+	text-align:center;
+	font-size:15px;
+	font-family:"Franklin Gothic Medium";
+	margin:10px 0px 10px 0px;	
+}
+
+#masNoticias{
+	text-align:center;
+	font-size:12px;
+	font-family:Tahoma, Geneva, sans-serif;
+	margin-bottom:-30px;
+}
+
+#leerNoticia{
+	text-align:left;
+	font-size:11px;
+	font-family:"Franklin Gothic Medium";
+	margin-top:-20px;
+	padding:0px 0px 10px 10px;
+}
+
+.session{
+	font-family:"Franklin Gothic Medium";
+	font-weight:bold;
+	color:#FF6600;
+	padding:15px 0px 5px 5px;
+	text-align:right;
+	font-size:13px;
+	margin:-55px 10px 10px 10px;
+}
+
+.imageSession{
+	margin-top:5px;
+}
+
+#contador{
+	text-align:right;
+}
+
+.infoForm{
+	font-family:"Arial";
+	font-size:14px;
+}
+
+#datosEquipo p.loading{
+	margin-top:20px;
+	color:#FF3300;
+	font-family:"Franklin Gothic Medium";
+	padding-left:30px;
+}
+
+.patrocinadores{
+	margin:100px 0px 130px 70px;
+	float:left;
+}

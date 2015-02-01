@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+#reservaPago{
+	margin-bottom:40px;
+	border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;	
+	background-color:#CCCCCC;
+}
+
+.tituloCalendario{
+	font-size:18px; 
+	font-weight:bold;
+}
+
+.tituloPago{
+	font-size:18px; 
+	font-weight:bold;
+	text-align:center;
+}
+
+#calendario{
+	height:200px;
+	width:330px;
+	font-size:10pt; 
+	text-align:center;
+	border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;	
+	background-color:#CCCCCC;
+	color:#000000;
+}
+
+.hoy{
+	color:#F00; 
+	font-weight:bold
+}
+
+.pagado{
+	color:#0F0;
+}
+
+.noPagado{
+	color:#F00; 
+}
+
+.noPagado a{
+	color:#F00;
+}
+
+.noPagado a:hover{
+	color:#0F0;
+}
+
+.pagado a{
+	color:#3F0;
+	text-decoration:underline;
+}
+
+.mesAnyo{
+	font-size:12pt;
+	font-weight:bold;
+	text-align:center;
+}
+
+.pago{
+	font-family:"Adobe Garamond Pro Bold";
+	font-weight:bold;
+}
+
+.mes{
+	width:200px;
+	font-family:"Adobe Garamond Pro Bold";
+	font-weight:bold;
+	border-bottom:1px solid #000;
+}
+
+.year{
+	width:200px;
+	font-family:Magneto;
+	font-weight:bold;
+	border-bottom:1px solid #000;
+}
+
+.finDeSemana{
+	color:#666666;
+}

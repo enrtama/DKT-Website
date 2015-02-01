@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+/* Index Style */
+
+body{
+	text-align:center;
+	background:#000000;
+}
+
+#imagen{
+	text-align:center;
+}
+
+#loading{
+	position:relative;
+	text-align:center;
+}
+
+#botonEntrar{
+	margin:20px auto;
+	border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;	
+	background-color:#FF6600;
+}
