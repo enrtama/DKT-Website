@@ -1,2 +1,2 @@
-# dkt-website
+# Drinkteam website
 Personal Drinkteam website (Laguna de Duero)
